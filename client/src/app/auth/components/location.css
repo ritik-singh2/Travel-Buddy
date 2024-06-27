@@ -1,0 +1,36 @@
+/* LocationSearchInput.module.css */
+.location-search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* padding-bottom: 10px; */
+}
+
+.autocomplete-dropdown-container {
+    position: fixed;
+    z-index: 1000;
+
+    /* background-color: #ffffff; */
+}
+
+
+/* .autocomplete-dropdown-container {
+    width: 100%;
+    border: 1px solid #aaa;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    position: absolute;
+    
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item--active, .suggestion-item:hover {
+    background-color: #fafafa;
+} */

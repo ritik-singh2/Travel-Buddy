@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: clip;
+    /* touch-action: none; */
+    position: fixed; /* This locks the background in place */
+    width: 100%;
+    height: 100%;
+}

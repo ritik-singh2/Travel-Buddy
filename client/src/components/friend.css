@@ -1,0 +1,19 @@
+.friend-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Mobile-first approach: by default, it will take 90% of the viewport */
+}
+
+@media (min-width: 768px) { /* Tablets and above */
+    .friend-modal {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) { /* Desktops and above */
+    .friend-modal {
+        width: 50%;
+    }
+}

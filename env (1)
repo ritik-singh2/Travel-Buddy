@@ -1,0 +1,4 @@
+MONGO = "mongodb+srv://stephenvaz2003:KDTdHm5x9NKntJXv@itl0.yiby1tr.mongodb.net/main"
+MAIL = "semicolonspit@gmail.com"
+MAILPASS = "jlnbmqvtheigtooc"
+JWTkey = "secret"

@@ -1,0 +1,99 @@
+.friendpage-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .friend-requests-list,
+  .friends-list,
+  .sent-follow-requests-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .friend-request,
+  .friend-item,
+  .sent-follow-request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .friend-request:hover,
+  .friend-item:hover,
+  .sent-follow-request:hover {
+    transform: scale(1.02);
+  }
+  
+  .request-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .request-name {
+    font-weight: bold;
+    margin-right: 16px;
+  }
+  
+  .request-status {
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .request-status.pending {
+    color: #f44336;
+    background-color: #ffcdd2;
+  }
+  
+  .request-status.accepted {
+    color: #4caf50;
+    background-color: #c8e6c9;
+  }
+  
+  .request-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .accept-button,
+  .reject-button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .accept-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .reject-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .sent-follow-request .request-actions {
+    display: none;
+  }
